@@ -20,5 +20,3 @@ for chunk in response:
     content = chunk.choices[0].delta.content
     if content:
         print(content, end="", flush=True)
-
-print(response.choices[0].message.content)
