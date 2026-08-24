@@ -1,9 +1,9 @@
 from openai import OpenAI
 
-API_KEY = "sk-5509f34704b84f31b0c70444e171263a"   # 替换成真的
+API_KEY = "API_KEY"   # 替换成真的
 
 client = OpenAI(
-    api_key="sk-5509f34704b84f31b0c70444e171263a",
+    api_key=API_KEY,
     base_url="https://api.deepseek.com/v1"
 )
 
